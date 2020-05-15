@@ -12,9 +12,9 @@ Nota: "x64" hace referencia a la arqutiectura de 64 bits, tambien hay una versio
 
 Una vez agregados los drivers debe buscar el archivo php.ini en la siguiente ruta C:\xampp\php y añadir las siguientes lineas:
 
-[PHP_SQLSRV]
-extension=sqlsrv_XX_ts_x64
-[PHP_PDO_SQLSRV]
-extension=pdo_sqlsrv_XX_ts_x64
+- [PHP_SQLSRV]
+- extension=sqlsrv_XX_ts_x64
+- [PHP_PDO_SQLSRV]
+- extension=pdo_sqlsrv_XX_ts_x64
 
 Una vez agregadas las lineas del driver debe reiniciar el servidor Apache para que reconozca los cambios.
